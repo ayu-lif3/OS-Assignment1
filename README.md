@@ -4,7 +4,7 @@ Starve free readers writers solution
 Pseudocode:
 
 
-Writer:
+Reader:
 
 
 1 wait(in)
@@ -30,7 +30,7 @@ Critical Section
 10 signal(mx)
 
 
-Reader:
+Writer:
 
 
 1 wait(in)
